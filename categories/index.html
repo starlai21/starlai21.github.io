@@ -85,12 +85,12 @@
 
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="categories">
+<meta property="og:title" content="Categories">
 <meta property="og:url" content="http://yoursite.com/categories/index.html">
 <meta property="og:site_name" content="Home">
-<meta property="og:updated_time" content="2016-12-09T18:30:59.000Z">
+<meta property="og:updated_time" content="2016-12-09T20:02:52.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="categories">
+<meta name="twitter:title" content="Categories">
 
 
 
@@ -128,7 +128,7 @@
   
 
   
-    categories | Home
+    Categories | Home
   
 </title>
 </head>
@@ -254,7 +254,7 @@
   <div id="posts" class="posts-expand">
   <header class="post-header">
 
-	<h2 class="post-title" itemprop="name headline">categories</h2>
+	<h2 class="post-title" itemprop="name headline">Categories</h2>
 
 
 
@@ -280,6 +280,13 @@
 
           
   <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
     
   </div>
 
@@ -475,10 +482,35 @@
 
   
 
+    <script type="text/javascript">
+      var disqus_shortname = 'laohubushimao-com';
+      var disqus_identifier = 'categories/index.html';
+
+      var disqus_title = "Categories";
 
 
+      function run_disqus_script(disqus_script) {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
 
-	
+      run_disqus_script('count.js');
+
+      
+        var disqus_config = function () {
+            this.page.url = disqus_url;
+            this.page.identifier = disqus_identifier;
+            this.page.title = disqus_title;
+        };
+        run_disqus_script('embed.js');
+      
+
+    </script>
+  
+
 
 
 
@@ -494,6 +526,6 @@
 
   
 
-
+  <script type="text/javascript" src="/js/src/processing.js"></script>
 </body>
 </html>

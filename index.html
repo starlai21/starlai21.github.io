@@ -282,7 +282,7 @@
               
                 
                 <a class="post-title-link" href="/2016/12/09/My-New-Post/" itemprop="url">
-                  My New Post
+                  Processing
                 </a>
               
             
@@ -310,6 +310,13 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <a href="/2016/12/09/My-New-Post/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/12/09/My-New-Post/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -333,10 +340,7 @@
 
       
         
-          <p><del>~Test</del>~</p>
-<p>###1</p>
-<p>###2</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">dd</div></pre></td></tr></table></figure>
+          <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">processing 的一个小程序</div><div class="line">先用鼠标点击下面的窗口</div><div class="line">键盘方向控制左右，按Z加速</div></pre></td></tr></table></figure>
           <!--noindex-->
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/12/09/My-New-Post/#more" rel="contents">
@@ -451,6 +455,13 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <a href="/2016/12/09/hello-world/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/12/09/hello-world/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -716,10 +727,28 @@
 
   
 
+    <script type="text/javascript">
+      var disqus_shortname = 'laohubushimao-com';
+      var disqus_identifier = 'index.html';
+
+      var disqus_title = "";
 
 
+      function run_disqus_script(disqus_script) {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
 
-	
+      run_disqus_script('count.js');
+
+      
+
+    </script>
+  
+
 
 
 
@@ -735,6 +764,6 @@
 
   
 
-
+  <script type="text/javascript" src="/js/src/processing.js"></script>
 </body>
 </html>
